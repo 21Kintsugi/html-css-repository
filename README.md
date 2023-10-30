@@ -1,2 +1,2 @@
-# repository1
-Practicing HTML
+#html-repository
+practicing-html
