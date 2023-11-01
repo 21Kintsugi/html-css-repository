@@ -1,2 +1,0 @@
-#html-repository
-practicing-html
