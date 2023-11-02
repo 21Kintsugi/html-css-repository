@@ -30,11 +30,11 @@ h3 {
     text-align: center;
 }
 
-.menu-table {
+.drink-menu-table {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 30vh;
 }
 
 #about-us-paragraph {
@@ -48,5 +48,4 @@ table, tr, th, td, caption {
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
     padding: 0.5rem;
-    text-align: center;
 }
