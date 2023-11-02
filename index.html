@@ -22,6 +22,7 @@
                 <li><a href="#OurMenus">Our Menus</a></li>
                 <li><a href="store-hours.html">Kintsugi Coffee Shop Working Hours</a></li>
                 <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="#survey">Answer a few questions and let us know you better</a></li>
             </ul>
         </nav>
         <div class="logo-image">
@@ -188,12 +189,61 @@
         </section>
         <hr>
 
-        <h4>Let us know you better by answering to a few questions!</h4>
-        <form action="https://httpbin.org/get" method="get">
-            <fieldset>Which are correct for you?</fieldset>
-                
-        </form>
-
+        <section id="survey">
+            <h4>Let us know you better!</h4>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Answer these questions!</legend>
+                    <ol>
+                        <li><p>
+                            <label for="full-name">Full Name:</label>
+                            <input type="text" name="full-name" id="full-name" placeholder="Cristian Balacci" autocomplete="on" required>
+                        </p></li>
+                        <li><p>
+                            <label for="favorite-number">Choose your favorite number</label>
+                            <input type="number" name="favorite-number" id="favorite-number" placeholder="21" min="1" max="100" step="1" value="21">
+                        </p></li>
+                        <li><p>
+                            <label for="favorite-coffee">Favorite Coffee</label>
+                            <select name="favorite-coffee" id="favorite-coffee" multiple size="4">
+                                <optgroup label="Favorite Coffee">
+                                    <option value="esspresso">Esspresso</option>
+                                    <option value="americano">Americano</option>
+                                    <option value="iced-coffee">Iced Coffee</option>
+                                    <option value="latte">Latte</option>
+                                    <option value="Cappuccino">Cappuccino</option>
+                                </optgroup>
+                                <option value="other">Other</option>
+                            </select>
+                        </p></li>
+                        <li><label for="favorite-food">What is your favorite food?</label>
+                        <p>
+                            <label for="tacos">Tacos</label>
+                            <input type="radio" name="Food" id="tacos" value="tacos">
+                        </p>
+                        <p>
+                            <label for="burritos">Burritos</label>
+                            <input type="radio" name="Food" id="burritos">
+                        </p>
+                        <p>
+                            <label for="grilled-chicken-panini">Griilled Chicken Panini</label>
+                            <input type="radio" name="Food" id="grilled-chicken-panini">
+                        </p>
+                        <p>
+                            <label for="salad">Salad</label>
+                            <input type="radio" name="Food" id="salad">
+                        </p>
+                        <p>
+                            <label for="other-food">If not on the list, please type here</label>
+                            <input type="text" name="food" id="other-food" placeholder="Soup">
+                        </p></li>
+                    </ol>
+                </fieldset>
+                <br>
+                <button type="submit" formaction="https://httpbin.org/get" formmethod="psot">Post</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
     </main>
     
     <!--FOOTER-->
