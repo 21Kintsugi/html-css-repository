@@ -57,3 +57,8 @@ table, tr, th, td, caption {
     padding: 0.5rem;
     text-align: center;
 }
+
+h4 {
+    font-size: 25px;
+    text-align: center;
+}
