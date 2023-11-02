@@ -34,14 +34,14 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 60vh;
 }
 
 .food-menu-table {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 45vh;
+    height: 35vh;
 }
 
 #about-us-paragraph {
