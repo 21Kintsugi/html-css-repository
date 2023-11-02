@@ -30,6 +30,13 @@ h3 {
     text-align: center;
 }
 
+.menu-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
 #about-us-paragraph {
     font-size: 25px;
     text-align: center;
