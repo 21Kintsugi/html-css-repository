@@ -58,7 +58,7 @@ table, tr, th, td, caption {
     text-align: center;
 }
 
-h4 {
+h4, h5 {
     font-size: 25px;
     text-align: center;
 }
