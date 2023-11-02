@@ -116,12 +116,12 @@
                             <td>Green Goddess Smoothie</td>
                             <td><em>$6.00</em></td>
                         </tr>
-                        <tfoot>
-                            <tr>
-                                <td colspan="3">Embrace the Art of Sip and Savor</td>
-                            </tr>
-                        </tfoot>
                     </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Embrace the Art of Sip and Savor</td>
+                        </tr>
+                    </tfoot>
                 </table>
             </div>
 
@@ -130,11 +130,13 @@
                     <!--Food Menu-->
                     <caption><strong><em>KINTSUGI FOOD MENU</em></strong></caption>
                     <thead>
-                        <th scope="col">Name</th>
-                        <th scope="col">Price</th>
-                        <th scope="col">Ingredients</th>
-                        <th scope="row">Vegetarian</th>
-                        <th>&nbsp;</th>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Ingredients</th>
+                            <th scope="row">Vegetarian</th>
+                            <th>&nbsp;</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr>
@@ -176,12 +178,12 @@
                             <td>A slice of creamy New York-style cheesecake with raspberry coulis</td>
                             <td>YES</td>
                         </tr>
-                        <tfoot>
-                            <tr>
-                                <td colspan="5">Our food is always Fresh!</td>
-                            </tr>
-                        </tfoot>
                     </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="5">Our food is always Fresh!</td>
+                        </tr>
+                    </tfoot>
                 </table>
             </div>
             <p>
@@ -217,7 +219,7 @@
                                 <option value="other">Other</option>
                             </select>
                         </p></li>
-                        <li><label for="favorite-food">What is your favorite food?</label>
+                        <li><label for="tacos">What is your favorite food?</label>
                         <p>
                             <label for="tacos">Tacos</label>
                             <input type="radio" name="Food" id="tacos" value="tacos">
@@ -241,21 +243,22 @@
                     </ol>
                 </fieldset>
                 <br>
-                <button type="submit" formaction="https://httpbin.org/get" formmethod="psot">Post</button>
+                <button type="submit" formaction="https://httpbin.org/get" formmethod="post">Post</button>
                 <button type="reset">Reset</button>
             </form>
         </section>
 
-        <h5>Write your complaint here!</h5>
+        
         <section id="write-a-complaint">
-            <form action="https://httpbin.org/get" method="get">
-                <fieldset>
-                    <textarea name="complaint" id="complaint" cols="30" rows="20" placeholder="Type your complaint here..."></textarea>
-                </fieldset>
-            </form>
-            <br>
-            <button type="submit" formaction="https://httpbin.org/get" formmethod="psot">Post</button>
-            <button type="reset">Reset</button>
+            <h5>Write your complaint here!</h5>
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <textarea name="complaint" id="complaint" cols="30" rows="20" placeholder="Type your complaint here..."></textarea>
+                    </fieldset>
+                </form>
+                <br>
+                <button type="submit" formaction="https://httpbin.org/get" formmethod="post">Post</button>
+                <button type="reset">Reset</button>
         </section>
         <br>
         <a href="#">Back to top</a>
