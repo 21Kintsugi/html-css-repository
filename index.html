@@ -5,79 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Cristian Balacci">
     <meta name="description" content="This is a simulation of a coffee shop webpage made only in html and very little css where I practice my knowledge gained from the free code camp online guide">
-    <link rel="icon" href="img/kintsugi logo.png" type="image/x-icon">
+    <link rel="icon" href="img/kintsugi-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Kintsugi Coffee Shop</title>
 </head>
 
-<header>
-    <h1>Kintsugi Coffee Shop</h1>
-    <br>
-    <div class="logo-image">
-        <img src="img/kintsugi main image.jpg" alt="An image of the Kintsugi Coffee Logo" height="400" width="500">
-    </div>
-    <p class="paragraph" id="motto-paragraph"><abbr title="To join with gold -  metaphor for embracing your flaws and imperfections">Kintsugi</abbr> Coffee Shop: <strong>Where Every Break Becomes a Beautiful Reconnection !!!</strong></p>
-    <nav>
-        <ul>
-            <li><a href="#AboutUs">About Us</a></li>
-            <li><a href="#OurMenu">Our Menu</a></li>
-        </ul>
-    </nav>
-    <hr>
-</header>
-
-<main>
-    <section id="AboutUs">
-        <h2>About us!</h2>
-        <p class="paragraph" id="about-us-paragraph"><em>Kintsugi Coffee Shop is not just a place to enjoy your <strong>favorite brew</strong> ˗ˏˋ☕ˎˊ˗˗ˏˋ☕ˎˊ˗˗ˏˋ☕ˎˊ˗; it's a sanctuary of stories, where each crack and imperfection in our lives becomes an opportunity for beautiful healing. In the heart of the city, we serve more than just coffee; we serve experiences. Our café is an ode to resilience and the art of embracing life's unique, imperfect moments. With every cup, we celebrate the beauty in the broken, inviting you to savor the rich tapestry of life over a steaming cup of warmth. Kintsugi Coffee Shop, where every sip is a reminder that our scars are what make us whole</em></p>
-        <hr>
-    </section>
-
-    <section id="OurMenu">
-        <h3>Our Menu:</h3>
-        <div class="menu-table">
-            <table>
-                <caption>Kintsugi Coffee Shop Menu</caption>
-                <thead>
-                    <tr>
-                        <th scope="col">Coffee</th>
-                        <th scope="col">Price</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Esspresso</td>
-                        <td>$2.50</td>
-                    </tr>
-                    <tr>
-                        <td>Americano</td>
-                        <td>$3.50</td>
-                    </tr>
-                    <tr>
-                        <td>Cappuccino</td>
-                        <td>$4.00</td>
-                    </tr>
-                    <tr>
-                        <td>Latte</td>
-                        <td>$4.50</td>
-                    </tr>
-                    <tr>
-                        <td>Kintsugi Blend (Our House Blend)</td>
-                        <td>$4.25</td>
-                    </tr>
-                    <tr>
-                        <td>Iced Coffee</td>
-                        <td>$3.75</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        </section>
-        </section>
-    </section>
-</main>
-
 <body>
+
+    <!--HEADER-->
+    <header>
+        <h1>Kintsugi Coffee Shop</h1>
+        <br>
+        <div class="logo-image">
+            <img src="img/kintsugi-main-image.jpg" alt="An image of the Kintsugi Coffee Logo" height="400" width="500">
+        </div>
+        <p class="paragraph" id="motto-paragraph"><abbr title="To join with gold -  metaphor for embracing your flaws and imperfections">Kintsugi</abbr> Coffee Shop: <strong>Where Every Break Becomes a Beautiful Reconnection !!!</strong></p>
+        <nav>
+            <ul>
+                <li><a href="#AboutUs">About Us</a></li>
+                <li><a href="#OurDrinkMenu">Our Drink Menu</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <!--MAIN PART OF THE PAGE-->
+    <main>
+
+        <section id="AboutUs">
+            <h2>About us!</h2>
+            <p class="paragraph" id="about-us-paragraph"><em>Kintsugi Coffee Shop is not just a place to enjoy your <strong>favorite brew</strong> ˗ˏˋ☕ˎˊ˗˗ˏˋ☕ˎˊ˗˗ˏˋ☕ˎˊ˗; it's a sanctuary of stories, where each crack and imperfection in our lives becomes an opportunity for beautiful healing. In the heart of the city, we serve more than just coffee; we serve experiences. Our café is an ode to resilience and the art of embracing life's unique, imperfect moments. With every cup, we celebrate the beauty in the broken, inviting you to savor the rich tapestry of life over a steaming cup of warmth. Kintsugi Coffee Shop, where every sip is a reminder that our scars are what make us whole</em></p>
+            <hr>
+        </section>
+        
+        <!--MENU TABLES-->
+        <section id="OurDrinkMenu">
+            <h3>Our Menu:</h3>
+            <div class="drink-menu-table">
+                <table>
+                    <caption>Kintsugi Coffee Menu</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Drink Type</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td rowspan="6">Coffee</td>
+                            <td>Esspresso</td>
+                            <td>$2.50</td>
+                        </tr>
+                        <tr>
+                            <td>Americano</td>
+                            <td>$3.50</td>
+                        </tr>
+                        <tr>
+                            <td>Cappuccino</td>
+                            <td>$4.00</td>
+                        </tr>
+                        <tr>
+                            <td>Latte</td>
+                            <td>$4.50</td>
+                        </tr>
+                        <tr>
+                            <td>Kintsugi Blend (Our House Blend)</td>
+                            <td>$4.25</td>
+                        </tr>
+                        <tr>
+                            <td>Iced Coffee</td>
+                            <td>$3.75</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
     
 </body>
 </html>
