@@ -17,8 +17,22 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-size: 32px;
+    font-family: monospace;
+    text-align: center;
+}
+
 #about-us-paragraph {
     font-size: 25px;
     text-align: center;
     color: darkgoldenrod;
+}
+
+table, tr, th, td, caption {
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    text-align: center;
 }
