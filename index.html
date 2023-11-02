@@ -246,14 +246,18 @@
             </form>
         </section>
 
-        <h5>Write your complaint here:</h5>
+        <h5>Write your complaint here!</h5>
         <section id="write-a-complaint">
-            <form>
+            <form action="https://httpbin.org/get" method="get">
                 <fieldset>
                     <textarea name="complaint" id="complaint" cols="30" rows="20" placeholder="Type your complaint here..."></textarea>
                 </fieldset>
             </form>
+            <br>
+            <button type="submit" formaction="https://httpbin.org/get" formmethod="psot">Post</button>
+            <button type="reset">Reset</button>
         </section>
+        <br>
         <a href="#">Back to top</a>
     </main>
     
