@@ -6,6 +6,7 @@
     <meta name="author" content="Cristian Balacci">
     <meta name="description" content="Contact us page for Kintsugi Coffee Shop">
     <link rel="icon" href="img/kintsugi-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style-contact-us.css">
     <title>Contact Kintsugi Coffee Shop</title>
 </head>
 
@@ -21,17 +22,20 @@
                 <li><a href="index.html#OurMenus">Our Menus</a></li>
             </ul>
         </nav>
-        <img src="img/contact-us.jpg" alt="Image of three types of coffees held by three different people" height="350" width="500">
-        <figcaption>Kintsugi Café: Sip, Savor, Enjoy</figcaption>
+        <div class="contact-us-image">
+            <img src="img/contact-us.jpg" alt="Image of three types of coffees held by three different people" height="350" width="500">
+            <br>
+        </div>
+            <figcaption id="figcaption-contact-us">Kintsugi Café: Sip, Savor, Enjoy</figcaption>
     </header>
 
     <main>
 
         <h2>Our Contact Form:</h2>
-        <p>We would love to hear from you</p>
+        <p>We would love to hear from you!!!</p>
         <form action="https://httpbin.org/get" method="get">
             <fieldset>
-                <legend>Send Us A Message</legend>
+                <legend id="legend">Send Us A Message</legend>
                 <p>
                     <label for="first-name">First Name</label>
                     <input type="text" name="first-name" id="first-name" placeholder="Cristian" autocomplete="on" required>
@@ -51,9 +55,9 @@
             <button type="reset">Reset</button>
         </form>
         <br>
-        <a href="tel:(555) 123-4567">Call us!</a>
+        <a href="tel:(555) 123-4567">(555) 123-4567</a>
         <br>
-        <a href="mailto:kintsugi21cafee@gmail.com">Send us an email!</a>
+        <a href="mailto:kintsugi21cafee@gmail.com">kintsugi21cafee@gmail.com</a>
         <br>
 
     </main>
