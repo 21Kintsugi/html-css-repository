@@ -83,3 +83,29 @@ table, tr, th, td, caption {
     margin-right: 42%;
     padding: 5px;
 }
+
+.working-hours {
+    border: 5px double black;
+    width: 40%;
+    padding: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigation-working-hours {
+    font-size: 25px;
+    font-style: italic;
+    font-family: monospace;
+}
+
+.store-hours-image {
+    display: flex;
+    justify-content: center;
+}
+
+#store-hours-image-figcaption {
+    border: 5px double black;
+    width: 17.2%;
+    margin-left: 42%;
+    margin-left: 42%;
+    padding: 5px;
+}
