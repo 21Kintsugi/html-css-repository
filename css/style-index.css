@@ -3,7 +3,11 @@ html {
 }
 
 #motto-paragraph {
-    font-size: 25px;
+    border: 10px double black;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    outline: 5px;
 }
 
 h1 {
