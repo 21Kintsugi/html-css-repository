@@ -55,3 +55,31 @@ table, tr, th, td, caption {
     align-items: center;
     height: 35vh;
 }
+
+.contactus {
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 13%;
+    padding: 10px;
+}
+
+.contact-us-image {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-contact-us {
+    font-style: italic;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#figcaption-contact-us {
+    align-items: center;
+    text-align: center;
+    border: 5px solid black;
+    width: 15%;
+    margin-left: 42%;
+    margin-right: 42%;
+    padding: 5px;
+}
