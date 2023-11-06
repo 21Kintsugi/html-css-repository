@@ -1,0 +1,12 @@
+html {
+    background-color: goldenrod;
+}
+
+.header-one {
+    border: 5px solid black;
+    border-width: 0.5rem;
+    padding: 1.5rem;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+}
