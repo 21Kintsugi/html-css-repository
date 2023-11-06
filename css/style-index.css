@@ -10,3 +10,8 @@ html {
     margin-right: 35%;
     text-align: center;
 }
+
+.navigation {
+    font-size: 25px;
+    font-family: monospace;
+}
