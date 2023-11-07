@@ -139,7 +139,7 @@ ul {
 ul li::marker {
     color: purple;
     font-family: fantasy;
-    content: ">>>";
+    content: ">>> ";
     font-size: 1em;
 }
 
