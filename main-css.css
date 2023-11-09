@@ -1,11 +1,12 @@
 * {
     background-color: rgb(75, 64, 64);
-    font-family: fantasy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
+    color: burlywood;
 }
 
 h1 {
-    color: rgb(252, 191, 38);
+    color: burlywood;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     border: 5px solid gold;
@@ -16,23 +17,22 @@ h1 {
 }
 
 nav {
-    border: 4px solid rgb(175, 157, 52);
-    border-radius: 1rem;
-    max-width: max-content;
     text-align: center;
     font-family: monospace;
-    padding: 2px;
-    margin: 0 auto;
 }
 
 a {
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+    border-radius: 1rem; 
+    padding: 0.5px;
     color: rgb(122, 106, 13);
     font-family: cursive;
     text-decoration: none;
 }
 
 a:visited {
-    color: rgb(143, 105, 8);
+    color: burlywood;
 }
 
 a:hover a:focus {
@@ -48,3 +48,47 @@ ul {
     list-style-type: none;
 }
 
+.logo-image, .main-logo-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: burlywood;
+}
+
+#AboutUs {
+    border: 2px solid gold;
+    color: burlywood;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+tr, th, td {
+    border: 1px solid gold;
+    padding: 5px;
+    text-align: center;
+}
+
+table {
+    border: 1px solid gold;
+    margin: 0 auto;
+}
+
+#OurMenus {
+    text-align: center;
+}
+
+footer {
+    text-decoration: underline;
+}
+
+#survey {
+    border: 2px solid gold;
+}
+
+#write-a-complaint {
+    border: 2px solid gold;
+}
+
+h5 {
+    font-size: 25px;
+}
