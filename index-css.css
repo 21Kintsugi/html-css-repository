@@ -38,7 +38,6 @@ li a:visited {
 li a:hover, li a:focus {
     color: hsl(51, 100%, 50%, 0.8)700;
     background: black;
-    text-decoration: underline;
 }
 
 li a:active {
