@@ -1,0 +1,52 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: whitesmoke;
+}
+
+.header-one {
+    border: 3px solid goldenrod;
+    border-radius: 1.5rem;
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+    width: 100;
+    padding: 0.5rem;
+}
+
+nav {
+    border: 5px double goldenrod;
+    border-radius: 1rem;
+    background-color: black;
+    width: max-content;
+    display: flex;
+    margin: auto;
+}
+
+a {
+    color: goldenrod;
+    text-decoration: none;
+    padding: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+}
+
+li a:visited {
+    color: gold;
+}
+
+li a:hover, li a:focus {
+    color: goldenrod;
+}
+
+
+
