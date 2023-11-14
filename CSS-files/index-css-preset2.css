@@ -1,5 +1,7 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -16,37 +18,44 @@ html {
     text-align: center;
     width: 100;
     padding: 0.5rem;
+    margin-top: 1rem;
 }
 
 nav {
     border: 5px double goldenrod;
     border-radius: 1rem;
     background-color: black;
-    width: max-content;
-    display: flex;
+    text-align: center;
+    width: 30rem;
     margin: auto;
 }
 
 a {
     color: goldenrod;
     text-decoration: none;
-    padding: 2rem;
+    line-height: 1.5px;
+}
+
+a:hover, a:focus {
+    color: gold;
 }
 
 ul {
     list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
-    text-align: center;
 }
 
-li a:visited {
-    color: gold;
+.logo-image {
+    display: flex;
+    margin-top: 1.5em;
+    justify-content: center;
 }
 
-li a:hover, li a:focus {
+.main-logo-description {
+    border: 2px solid goldenrod;
+    border-radius: 1rem;
+    background-color: black;
     color: goldenrod;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
 }
-
-
-
