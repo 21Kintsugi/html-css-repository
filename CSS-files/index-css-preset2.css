@@ -71,3 +71,42 @@ ul {
     margin-top: 1rem;
     justify-content: center;
 }
+
+.Menus {
+    border: 6px double goldenrod;
+    margin-top: 1rem;
+}
+
+h3 {
+    border: 2px solid gold;
+    background-color: black;
+    color: gold;
+    text-align: center;
+    width: 25rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+table, tr, th, td, caption {
+    border: 2.5px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.drink-menu-table, .food-menu-table {
+    background-color: gray;
+    color: gold;
+    width: fit-content;
+    margin: auto;
+}
+
+#back-to-top {
+    border: 2px solid goldenrod;
+    background-color: black;
+    color: goldenrod;
+    margin-top: 1rem;
+    width: fit-content;
+}
