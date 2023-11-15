@@ -55,7 +55,19 @@ ul {
     border-radius: 1rem;
     background-color: black;
     color: goldenrod;
-    display: flex;
     justify-content: center;
-    margin-top: 1em;
+    width: 35rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.AboutUs {
+    text-align: center;
+    border: 3px solid goldenrod;
+    border-radius: 1rem;
+    background-color: black;
+    color: goldenrod;
+    margin: auto;
+    margin-top: 1rem;
+    justify-content: center;
 }
