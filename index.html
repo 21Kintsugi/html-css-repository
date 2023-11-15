@@ -187,12 +187,13 @@
             <a href="#">Back to the top</a>
         </p>
         <br><br>
-        <section id="survey">
+        <section class="survey">
             <h4>Let us know you better!</h4>
+            <br>
             <form action="https://httpbin.org/get" method="get">
                 <fieldset>
-                    <legend>Answer these questions!</legend>
-                    <ol>
+                    <legend id="legend">Answer these questions!</legend>
+                    <ul>
                         <li><p>
                             <label for="full-name">Full Name:</label>
                             <input type="text" name="full-name" id="full-name" placeholder="Cristian Balacci" autocomplete="on" required>
@@ -235,7 +236,7 @@
                             <label for="other-food">If not on the list, please type here</label>
                             <input type="text" name="food" id="other-food" placeholder="Soup">
                         </p></li>
-                    </ol>
+                    </ul>
                 </fieldset>
                 <br>
                 <button type="submit" formaction="https://httpbin.org/get" formmethod="post">Post</button>
@@ -243,11 +244,11 @@
             </form>
         </section>
         <br><br>
-        <section id="write-a-complaint">
+        <section class="write-a-complaint">
             <h5>Write your complaint here!</h5>
                 <form action="https://httpbin.org/get" method="get">
                     <fieldset>
-                        <textarea name="complaint" id="complaint" cols="30" rows="20" placeholder="Type your complaint here..."></textarea>
+                        <textarea name="complaint" id="complaint" cols="240" rows="20" placeholder="Type your complaint here..."></textarea>
                     </fieldset>
                 </form>
                 <br>
@@ -255,15 +256,17 @@
                 <button type="reset">Reset</button>
         </section>
         <br>
-        <a href="#">Back to top</a>
+        <div class="back-to-top">
+            <a href="#">Back to top</a>
+        </div>
     </main>
     
     <!--FOOTER-->
     <footer>
-        <p>
+        <p class="last-paragraphs">
             Copyright © Kintsugi Coffee Shop
         </p>
-        <p>
+        <p class="last-paragraphs">
             &lt;&lt;&lt;Cristian Balacci&gt;&gt;&gt;
         </p>
     </footer>
