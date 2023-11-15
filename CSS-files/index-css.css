@@ -10,14 +10,9 @@ html {
     background-color: #FFE1A8;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
+
 
 .header-one {
-    position: fixed;
-    top: 0;
     width: 100%;
     margin: auto;
     border: 3px solid #C9CBA3;
@@ -26,7 +21,6 @@ body {
     color: #C9CBA3;
     text-align: center;
     padding: 0.5rem;
-    z-index: 1;
 }
 
 nav {
@@ -69,7 +63,7 @@ ul {
     margin-top: 1rem;
 }
 
-.AboutUs {
+#AboutUs {
     text-align: center;
     border: 3px solid #C9CBA3;
     border-radius: 1rem;
@@ -136,7 +130,7 @@ h4 {
     margin-bottom: 1rem;
 }
 
-.survey, .write-a-complaint {
+#survey, #write-a-complaint {
     padding: 1rem;
     margin: auto;
     width: fit-content;
