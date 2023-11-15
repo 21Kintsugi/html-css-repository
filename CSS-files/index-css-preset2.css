@@ -7,14 +7,14 @@
 
 html {
     scroll-behavior: smooth;
-    background-color: whitesmoke;
+    background-color: #FFE1A8;
 }
 
 .header-one {
-    border: 3px solid goldenrod;
+    border: 3px solid #C9CBA3;
     border-radius: 1.5rem;
-    background-color: black;
-    color: goldenrod;
+    background-color: #723D46;
+    color: #C9CBA3;
     text-align: center;
     width: 100;
     padding: 0.5rem;
@@ -22,22 +22,22 @@ html {
 }
 
 nav {
-    border: 5px double goldenrod;
+    border: 5px double #C9CBA3;
     border-radius: 1rem;
-    background-color: black;
+    background-color: #723D46;
     text-align: center;
     width: 30rem;
     margin: auto;
 }
 
 a {
-    color: goldenrod;
+    color: #C9CBA3;
     text-decoration: none;
     line-height: 1.5px;
 }
 
 a:hover, a:focus {
-    color: gold;
+    color: #E26D5C;
 }
 
 ul {
@@ -51,10 +51,10 @@ ul {
 }
 
 .main-logo-description {
-    border: 2px solid goldenrod;
+    border: 2px solid #C9CBA3;
     border-radius: 1rem;
-    background-color: black;
-    color: goldenrod;
+    background-color: #723D46;
+    color: #C9CBA3;
     justify-content: center;
     width: 35rem;
     margin: auto;
@@ -63,24 +63,24 @@ ul {
 
 .AboutUs {
     text-align: center;
-    border: 3px solid goldenrod;
+    border: 3px solid #C9CBA3;
     border-radius: 1rem;
-    background-color: black;
-    color: goldenrod;
+    background-color: #723D46;
+    color: #C9CBA3;
     margin: auto;
     margin-top: 1rem;
     justify-content: center;
 }
 
 .Menus {
-    border: 6px double goldenrod;
+    border: 6px double #C9CBA3;
     margin-top: 1rem;
 }
 
 h3 {
-    border: 2px solid gold;
-    background-color: black;
-    color: gold;
+    border: 2px solid #C9CBA3;
+    background-color: #723D46;
+    color: #C9CBA3;
     text-align: center;
     width: 25rem;
     margin: auto;
@@ -89,7 +89,7 @@ h3 {
 }
 
 table, tr, th, td, caption {
-    border: 2.5px solid black;
+    border: 2.5px solid #C9CBA3;
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
     padding: 0.5rem;
@@ -97,16 +97,59 @@ table, tr, th, td, caption {
 }
 
 .drink-menu-table, .food-menu-table {
-    background-color: gray;
-    color: gold;
+    background-color: #723D46;
+    color: #C9CBA3;
     width: fit-content;
     margin: auto;
 }
 
 #back-to-top {
-    border: 2px solid goldenrod;
-    background-color: black;
-    color: goldenrod;
+    border: 2px solid #C9CBA3;
+    background-color: #723D46;
+    color: #C9CBA3;
     margin-top: 1rem;
+    width: fit-content;
+}
+
+h4 {
+    border: 2px solid #C9CBA3;
+    background-color: #723D46;
+    color: #C9CBA3;
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+#legend {
+    display: flex;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+.survey, .write-a-complaint {
+    padding: 1rem;
+    margin: auto;
+    width: fit-content;
+}
+
+.back-to-top {
+    border: 2px solid #C9CBA3;
+    background-color: #723D46;
+    color: #C9CBA3;
+    margin-top: 1rem;
+    width: fit-content;
+    margin-bottom: 1rem;
+}
+
+.last-paragraphs {
+    border: 2px solid #C9CBA3;
+    background-color: #723D46;
+    color: #C9CBA3;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
     width: fit-content;
 }

@@ -92,3 +92,9 @@ footer {
 h5 {
     font-size: 25px;
 }
+
+.survey {
+    padding: 1rem;
+    margin: auto;
+    width: max-content;
+}
