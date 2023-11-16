@@ -6,7 +6,8 @@
 }
 
 html {
-    background-color: #1E1E24;
+    background-color: #C4AF9A;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -16,6 +17,7 @@ h1 {
     width: fit-content;
     margin: auto;
     margin-bottom: 5px;
+    margin-top: 5px;
     border-radius: 1rem;
     text-align: center;
 }
@@ -47,4 +49,33 @@ a:hover, a:focus {
 .contact-us-image {
     display: flex;
     justify-content: center;
+}
+
+#figcaption-contact-us {
+    margin: auto;
+    margin-top: 1rem;
+    width: fit-content;
+    border: 5px double #21A179;
+}
+
+h2 {
+    border: 3px solid #21A179;
+    border-radius: 1rem;
+    margin: auto;
+    width: fit-content;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin: auto;
+    width: fit-content;
+}
+
+#legend {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin: auto;
+    width: fit-content;
+    border: 1px solid black;
 }
