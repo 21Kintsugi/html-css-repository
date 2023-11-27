@@ -23,6 +23,7 @@ html {
 
 .container {
     display: flex;
+    gap: 1rem;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
