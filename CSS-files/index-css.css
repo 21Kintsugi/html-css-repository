@@ -68,10 +68,10 @@ ul {
 }
 
 .main-logo-description {
-    border: 2px solid #C9CBA3;
+    border: 2px solid #2EBFA5;
     border-radius: 1rem;
-    background-color: #723D46;
-    color: #C9CBA3;
+    background-color: #56CF9C;
+    color: #4E4187;
     justify-content: center;
     width: 35rem;
     margin: auto;
@@ -80,24 +80,24 @@ ul {
 
 #AboutUs {
     text-align: center;
-    border: 3px solid #C9CBA3;
+    border: 3px solid #2EBFA5;
     border-radius: 1rem;
-    background-color: #723D46;
-    color: #C9CBA3;
+    background-color: #56CF9C;
+    color: #4E4187;
     margin: auto;
     margin-top: 1rem;
     justify-content: center;
 }
 
 .Menus {
-    border: 6px double #C9CBA3;
+    border: 6px double #2EBFA5;
     margin-top: 1rem;
 }
 
 h3 {
-    border: 2px solid #C9CBA3;
-    background-color: #723D46;
-    color: #C9CBA3;
+    border: 2px solid #2EBFA5;
+    background-color: #56CF9C;
+    color: #4E4187;
     text-align: center;
     width: 25rem;
     margin: auto;
@@ -106,7 +106,7 @@ h3 {
 }
 
 table, tr, th, td, caption {
-    border: 2.5px solid #C9CBA3;
+    border: 2.5px solid #2EBFA5;
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
     padding: 0.5rem;
@@ -114,24 +114,24 @@ table, tr, th, td, caption {
 }
 
 .drink-menu-table, .food-menu-table {
-    background-color: #723D46;
-    color: #C9CBA3;
+    background-color: #56CF9C;
+    color: #4E4187;
     width: fit-content;
     margin: auto;
 }
 
 #back-to-top {
-    border: 2px solid #C9CBA3;
-    background-color: #723D46;
-    color: #C9CBA3;
+    border: 2px solid #2EBFA5;
+    background-color: #56CF9C;
+    color: #4E4187;
     margin-top: 1rem;
     width: fit-content;
 }
 
 h4 {
-    border: 2px solid #C9CBA3;
-    background-color: #723D46;
-    color: #C9CBA3;
+    border: 2px solid #2EBFA5;
+    background-color: #56CF9C;
+    color: #4E4187;
     width: max-content;
     margin: 0 auto;
     display: flex;
@@ -152,18 +152,18 @@ h4 {
 }
 
 .back-to-top {
-    border: 2px solid #C9CBA3;
-    background-color: #723D46;
-    color: #C9CBA3;
+    border: 2px solid #2EBFA5;
+    background-color: #56CF9C;
+    color: #4E4187;
     margin-top: 1rem;
     width: fit-content;
     margin-bottom: 1rem;
 }
 
 .last-paragraphs {
-    border: 2px solid #C9CBA3;
-    background-color: #723D46;
-    color: #C9CBA3;
+    border: 2px solid #2EBFA5;
+    background-color: #56CF9C;
+    color: #4E4187;
     display: flex;
     justify-content: center;
     text-align: center;
