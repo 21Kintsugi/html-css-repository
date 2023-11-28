@@ -62,7 +62,7 @@ ul {
     list-style-type: none;
 }
 
-.logo-image {
+/* .logo-image {
     display: flex;
     margin-top: 1.5em;
     justify-content: center;
@@ -77,13 +77,13 @@ ul {
     width: 35rem;
     margin: auto;
     margin-top: 1rem;
-}
+} */
 
 #AboutUs {
     text-align: center;
-    border: 3px solid #E1E8ED;
+    /* border: 3px solid #E1E8ED;
     border-radius: 1rem;
-    background-color: #292F33;
+    background-color: #2 */92F33;
     color: #CCD6DD;
     margin: auto;
     margin-top: 1rem;
@@ -91,7 +91,7 @@ ul {
 }
 
 .Menus {
-    border: 6px double #E1E8ED;
+    /* border: 6px double #E1E8ED; */
     margin-top: 1rem;
 }
 
